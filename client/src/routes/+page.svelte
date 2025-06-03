@@ -14,7 +14,7 @@
 	</section>
 
 	<section class="section">
-		<h2>1. Linux</h2>
+		<h2>Linux</h2>
 		<p>Como usar el susbsitema de linux para windows y configuración</p>
 		<iframe
 			width="100%"
@@ -40,22 +40,6 @@
 		justify-content: center;
 	}
 
-	main {
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		gap: 1rem;
-		padding: 2rem;
-	}
-
-	.section {
-		background: rgba(255, 255, 255, 0.07);
-		max-width: 1200px;
-		width: 100%;
-		padding: 1rem;
-		border-radius: 12px;
-	}
-
 	.info {
 		display: flex;
 		flex-direction: column;
@@ -76,5 +60,10 @@
 
 	iframe {
 		border-radius: 12px;
+	}
+
+	.card {
+		border: 1px solid var(--secondary);
+		border-radius: 8px;
 	}
 </style>
